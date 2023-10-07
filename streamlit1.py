@@ -4,7 +4,7 @@ from llama_index.llms import OpenAI
 import openai
 import os
 from llama_index import SimpleDirectoryReader
-openai.api_key = os.environ.get('OPENAI_API_KEY')
+openai.api_key = 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
 
 st.set_page_config(page_title="Chat with the Streamlit docs, powered by LlamaIndex", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
 # openai.api_key = st.secrets.openai_key
